@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".activities.HealthSafetyActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeightLarge"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@color/color1"
+        android:gravity="center_vertical"
+        android:onClick="insurance"
+        android:padding="@dimen/activity_vertical_margin"
+        android:text="National Insurance Number"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeightLarge"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@color/color2"
+        android:gravity="center_vertical"
+        android:onClick="mayfair"
+        android:padding="@dimen/activity_vertical_margin"
+        android:text="NHS &amp; Mayfair Insurance"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeightLarge"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@color/color6"
+        android:gravity="center_vertical"
+        android:onClick="medical"
+        android:padding="@dimen/activity_vertical_margin"
+        android:text="Medical Insurance"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

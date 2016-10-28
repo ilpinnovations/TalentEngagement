@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Talent Engagment</string>
+    <string name="bank_detail_title">You need to open an account in the UK with any bank for allowance and clain to reimbursement.</string>
+    <string name="title1">Opening your bank account in UK</string>
+    <string name="title2">It is simple to open an account at the nearest and preffered bank once you are in UK</string>
+    <string name="title3">Fill up the details and e-mail the template back to Helpdesk, who will issue you a TCS cover letter.</string>
+    <string name="title4">Arrange an appointment with the bank and visit them at the scheduled time with required documents.</string>
+    <string name="title5">Please note that you will be required to provide a UK address and contact number. In case you haven\'t finalised accomodation, you may provide your manager\'s/colleague\'s details and change this at a later date.</string>
+    <string name="title6"><![CDATA[Note: As per the credit brokerage & licensing act, employers in UK are not allowed to influence or advice associates of any recommended banks for them to open a bank account.]]></string>
+    <string name="title_onboardformalities">Destination Onsite is a one step solution to all your queries related to Visa processes, mandates and documentation.</string>
+</resources>

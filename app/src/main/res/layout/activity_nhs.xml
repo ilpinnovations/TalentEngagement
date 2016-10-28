@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".activities.NHSActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color3"
+            android:padding="@dimen/activity_vertical_margin"
+            android:text="National Health Service"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_vertical_margin"
+            android:text=" - Register yourself and your dependants under NHS by connecting with any local GP in your area" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:clickable="true"
+            android:padding="@dimen/activity_vertical_margin"
+            android:text=" - Refer to the NHS website &lt;www.nhs.uk> for any further information." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color3"
+            android:padding="@dimen/activity_vertical_margin"
+            android:text="Mayfair Insurance"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_vertical_margin"
+            android:text=" - Your Mayfair ID is sent to your TCS email after 7 to 8 days of your arrival in UK" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:padding="@dimen/activity_vertical_margin"
+            android:text=" - Log on to &lt;www.mayfairworldwide.com> using this ID &amp; download the coverage document for self and family(Spause and children)" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_vertical_margin"
+            android:text=" - Directly contact Mayfair for any queries relating to Claims." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:padding="@dimen/activity_vertical_margin"
+            android:text=" - In case you do not receive the email with insurance details within 15 days of your arrival to the UK, kindly contact ukhr.helpline@tcs.com" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_vertical_margin"
+            android:text=" - For more details on insurance you can log onto Ultimatix> Knowmax> My HR> United Kingdom> UK and Ireland> My Benefits> Insurance" />
+
+        <TextView
+            android:id="@+id/ultimatix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+</ScrollView>
